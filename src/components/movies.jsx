@@ -23,18 +23,22 @@ class Movie extends Component {
     }
   };
 
-  componentDidMount() {
-    const genres = [{ name: "All Genres" }, ...getGenres()];
-    this.setState({ movies: getMovies(), genres });
+  async componentDidMount() {
+    const get_Genres = await getGenres();
+    const genres = [{ name: "All Genres" }, ...get_Genres];
+    const get_Movies = await getMovies();
+    this.setState({ movies: get_Movies, genres });
   }
 
   handleDelete = id => {
     deleteMovie(id);
     this.setState({ movies: getMovies() });
   };
+
   handleSearch = query => {
     this.setState({ searchQuery: query, selectedGenre: null, currentPage: 1 });
   };
+
   handleLike = movie => {
     if (!movie.liked) movie.liked = true;
     else movie.liked = false;
