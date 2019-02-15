@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { getMovies } from "../services/fakeMovieService";
-import { deleteMovie } from "../services/fakeMovieService";
+import { getMovies } from "../services/movieService";
+import { deleteMovie } from "../services/movieService";
 import Pagination from "./common/pagination";
 import { paginate } from "../services/utils/paginate";
-import { getGenres } from "../services/fakeGenreService";
+import { getGenres } from "../services/genreService";
 import ListGroup from "./common/listGroup";
 import MoviesTable from "./common/moviesTable";
 import _ from "lodash";
