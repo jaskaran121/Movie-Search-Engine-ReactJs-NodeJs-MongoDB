@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5c5900220fdb8e0aab3a3a35"},"title":"Terminator","numberInStock":{"$numberInt":"6"},"dailyRentalRate":{"$numberDouble":"2.5"},"publishDate":"2018-01-03","liked":false,"genre":{"_id":"5c58ff2c0fdb8e0aab3a3a33","name":"Action"}}
+{"_id":{"$oid":"5c5e5f14701e222d18e02615"},"title":"Die Hard","numberInStock":"4","dailyRentalRate":"3","publishDate":"2017-01-06","liked":false,"genre":{"_id":"5c58ff410fdb8e0aab3a3a34","name":"Comedy"}}
+{"_id":{"$oid":"5c5e603e701e222d18e02616"},"title":"Get Out","numberInStock":"2","dailyRentalRate":"4","publishDate":"2015-02-15","liked":false,"genre":{"_id":"5c5e75f4701e222d18e02618","name":"Thriller"}}
+{"_id":{"$oid":"5c5e6087701e222d18e02617"},"title":"Trip to Italy","numberInStock":"3","dailyRentalRate":"5","publishDate":"2016-05-16","liked":false,"genre":{"_id":"5c5e75f4701e222d18e02618","name":"Thriller"}}
